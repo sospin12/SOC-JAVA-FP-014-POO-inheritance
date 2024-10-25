@@ -14,9 +14,11 @@ public class App {
         ea2.setSalario(5000);
         System.out.println(ea2.toString());
 
+        //UTILIZANDO UN CONSTRUCTOR PARA AHORRAR LINEAS DE CÓDIGO.
         EmpleadoAsalariado e3 = new EmpleadoAsalariado("Apple", "Maria", 100);
         System.out.println(e3.toString());
 
+        //POLIMORFISMO
         Persona p1 = new Persona();
         System.out.println(ea2 instanceof Persona);
         System.out.println(ea2 instanceof Empleado);

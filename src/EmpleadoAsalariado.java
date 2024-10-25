@@ -1,7 +1,7 @@
 public class EmpleadoAsalariado extends Empleado{
     private int salario;
 
-    //CONSTRUCTOR
+    //CONSTRUCTORES
     public EmpleadoAsalariado(){
     }
 
@@ -15,6 +15,7 @@ public class EmpleadoAsalariado extends Empleado{
         setSalario(salario);
     }
 
+    //GETTERS AND SETTERS
     public int getSalario() {
         return salario;
     }
@@ -23,6 +24,7 @@ public class EmpleadoAsalariado extends Empleado{
         this.salario = salario;
     }
 
+    //SOBRE ESCRIBE UNA FUNCION IMPLICITA EN LA CREACION DEL OBJETO DE LA CLASE OBJETO 
     @Override
     public String toString(){
         String text = "EmpleadoAsalariado { nombre="+this.getNombre();

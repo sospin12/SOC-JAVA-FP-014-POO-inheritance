@@ -1,5 +1,6 @@
 public class Empleado extends Persona{
 
+    //CONSTRUCTOR
     public Empleado(){
     }
 
@@ -7,6 +8,7 @@ public class Empleado extends Persona{
         super(nombre);
     }
 
+    //STRING EMPRESA
     private String empresa;
 
     public String getEmpresa() {
@@ -17,6 +19,7 @@ public class Empleado extends Persona{
         this.empresa = empresa;
     }
 
+    //SOBRE ESCRIBE EL toString QUE ES UN METODO DE LA CLASE PRINCPAL OBJECT
     @Override
     public String toString() {
         String text = "Empleado {nombre=" + this.getNombre();

@@ -2,7 +2,7 @@ public class Persona {
     
     private String nombre;
 
-    //constructuor
+    //CONSTRUCTORES
     public Persona(){
     }
 
@@ -10,6 +10,7 @@ public class Persona {
         this.nombre=nombre;
     }
 
+    //GETTERS AND SETTERS
     public void setNombre(String n){
         this.nombre=n;
     }
