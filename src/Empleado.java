@@ -1,16 +1,17 @@
-public class Empleado extends Persona{
+public class Empleado extends Persona{//clase modelo, esta tiene como base la clase Object, la cual se crea implicitamente.
+
+    //DEFINICION DE VARIABLES
+    private String empresa;
 
     //CONSTRUCTOR
-    public Empleado(){
+    public Empleado(){//si se crea otro constructor con datos de entrada, este constructor vacio debe existir tambien
     }
 
     public Empleado(String nombre){
-        super(nombre);
+        super(nombre);//Se utiliza super para rlacionar el constructor de la calse padre que tinee como entrada el string nombre
     }
 
-    //STRING EMPRESA
-    private String empresa;
-
+    //GETTERS AND SETTERS
     public String getEmpresa() {
         return empresa;
     }
